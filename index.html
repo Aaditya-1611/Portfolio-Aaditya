@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aaditya Pasi – 3D Portfolio</title>
+<meta name="description" content="Aaditya Pasi, AI Engineer. Generative AI, LLM applications and data science. Projects: AutoFixer and Latrova.">
+<meta property="og:title" content="Aaditya Pasi – AI Engineer">
+<meta property="og:description" content="Interactive 3D portfolio: AI agents, LLM automation and data science.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<video id="bgv" muted playsinline preload="auto" disablepictureinpicture aria-hidden="true" tabindex="-1" poster="assets/poster.jpg"><source src="assets/bg-scrub.mp4" type="video/mp4"></video>
+<div id="bgo" aria-hidden="true"></div>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div id="cur"></div>
+<button id="snd" type="button" aria-pressed="false">Sound: off</button>
+<button id="tbtn" type="button">Terminal</button>
+<div id="term" hidden><div id="tout" aria-live="polite"></div><div class="tin"><span>$</span><input id="tin" autocomplete="off" aria-label="Terminal command" placeholder="type help"></div></div>
+<div id="boot"><div>INITIALISING AI CORE</div><div id="bar"><i></i></div></div>
+<nav><b>Aaditya Pasi</b><div><a href="#home">Home</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></nav>
+<div class="hint" id="hint">Click to explode · hold to hyperdrive · scroll to fly</div>
+<main>
+<section class="s" id="home"><div class="panel">
+  <div class="hi">Hi, I’m</div><h1>Aaditya<br>Pasi</h1>
+  <div class="role">AI Engineer · Generative AI · Data Science</div>
+  <p class="lead">B.Tech Computer Science graduate with 24 months of hands-on experience in Generative AI, LLM applications and data science. I build AI agents and LLM-based automation with Python and Transformers.</p>
+  <div class="btns"><a class="btn f" href="#projects">View my work</a><a class="btn" href="#contact">Get in touch</a></div>
+  <div class="stats"><div><strong>24</strong><span>months of experience</span></div><div><strong>3</strong><span>internships &amp; programs</span></div><div><strong>11</strong><span>certifications</span></div></div>
+</div></section>
+
+<section class="s r" id="skills"><div class="panel glass">
+  <h2>Skills orbiting the core</h2><p class="sub">Each label around the 3D core is a real skill from my CV.</p>
+  <div class="job"><time>Languages</time><div class="tags"><span>Python</span><span>Java</span><span>C</span><span>C++</span><span>JavaScript</span><span>SQL (basic)</span><span>HTML</span><span>CSS</span></div></div>
+  <div class="job"><time>AI / ML</time><div class="tags"><span>Generative AI</span><span>LLMs</span><span>Prompt engineering</span><span>Agentic AI</span><span>Deep learning</span><span>Transformers</span><span>Small language models</span><span>Image generation</span><span>Chatbots</span><span>RAG (concepts)</span></div></div>
+  <div class="job"><time>Frameworks &amp; tools</time><div class="tags"><span>PyTorch</span><span>Flask</span><span>LangChain</span><span>Hugging Face</span><span>OpenAI API</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>GitHub</span><span>Colab</span><span>Advanced Excel</span></div></div>
+</div></section>
+
+<section class="s" id="projects"><div class="panel cards">
+  <div><h2>Projects</h2><p class="sub">Hover a card to tilt it in 3D.</p></div>
+  <article class="glass card" tabindex="0"><small>Final year major project</small><h3>AutoFixer: AI agent for bug detection &amp; repair</h3>
+    <ul><li>Detects bugs, generates multiple candidate patches and picks the best fix through a test-driven repair loop.</li><li>Fine-tuned CodeT5 on buggy-to-fixed pairs from CodeXGLUE, Defects4J and QuixBugs plus synthetic bugs.</li></ul>
+    <div class="tags"><span>CodeT5</span><span>Transformers</span><span>PyTorch</span></div><a class="btn" href="https://github.com/Aaditya-1611" style="display:inline-block;margin-top:14px;font-size:12px;padding:7px 14px;text-align:center">View on GitHub</a></article>
+  <article class="glass card" tabindex="0"><small>Prototype</small><h3>Latrova: AI-assisted doctor appointment platform</h3>
+    <ul><li>3 role-based portals, symptom matching across 8 specialties, conflict-free booking with refund rules.</li><li>Emergency-symptom detection escalates to admin; AI-drafted notes need doctor approval.</li></ul>
+    <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="btn" href="https://github.com/Aaditya-1611" style="display:inline-block;margin-top:14px;font-size:12px;padding:7px 14px;text-align:center">View on GitHub</a></article>
+</div></section>
+
+<section class="s r" id="experience"><div class="panel glass">
+  <h2>Experience</h2><p class="sub">Internships and training</p>
+  <div class="job"><time>Oct 2025 – Feb 2026</time><h3>Freelance AI/Tech</h3><p>LOL Arena</p><ul><li>Integrated AI tools into client workflows</li><li>Agile delivery with regular client reviews</li><li>Completed a Data Science program with LOL Arena alongside this role</li></ul></div>
+  <div class="job"><time>Jun 2025 – Aug 2025</time><h3>Generative AI</h3><p>RevaTech</p><ul><li>Prompt engineering workflows for text generation</li><li>LLM-based automation with Python and PyTorch</li><li>Explored Quantum Computing basics</li></ul></div>
+  <div class="job"><time>Jul 2024 – Aug 2024</time><h3>Data Science Trainee</h3><p>Teachnook</p><ul><li>Machine Learning and Python curriculum</li><li>Built a foundation in Python-based data handling and basic model building</li><li>Cognizance’24 IIT Roorkee Data Science course; Coratia Technologies mentorship</li></ul></div>
+</div></section>
+
+<section class="s" id="education"><div class="panel glass edu">
+  <h2>Education &amp; certifications</h2><p class="sub">&nbsp;</p>
+  <p><b>B.Tech in Computer Science Engineering (AI Specialisation)</b><small>Chhatrapati Shivaji Maharaj University, Navi Mumbai · 2023 – 2026</small></p>
+  <p><b>12th Science</b><small>Po-Nata College, Busaval</small></p>
+  <p><b>10th SSC</b><small>St. Aloysius Convent School, Busaval</small></p>
+  <div class="tags"><span>Teachnook, IIT Roorkee</span><span>Coratia Technologies</span><span>LOL Arena</span><span>Intern Forte</span><span>RevaTech GenAI</span><span>Sage University Agentic AI</span><span>AI for Techies</span><span>BenTech</span><span>Tech AI</span><span>Cybrom Excel</span><span>Cybrom HTML/CSS</span></div>
+</div></section>
+
+<section class="s" id="demos"><div class="panel glass" style="max-width:720px">
+  <h2>Try the projects</h2><p class="sub">Simulated demos that show how each project works. They do not run the real models.</p>
+  <div class="dm"><h3>AutoFixer: test-driven repair loop</h3>
+    <pre class="log" id="afcode"></pre>
+    <button class="btn f" id="afrun" type="button">Run AutoFixer</button>
+    <div class="log" id="aflog" aria-live="polite" style="margin-top:12px">Press run to watch detect, patch, test and fix.</div></div>
+  <div class="dm"><h3>Latrova: symptom triage</h3>
+    <div class="tags" id="ltags" style="margin:0 0 12px"></div>
+    <div class="log" id="lout" aria-live="polite">Pick a symptom to see how Latrova routes it.</div></div>
+</div></section>
+
+<section class="s r" id="ask"><div class="panel glass">
+  <h2>Ask about me</h2><p class="sub">Answers come straight from my CV. No external AI is used.</p>
+  <div class="log" id="msgs" aria-live="polite" style="height:200px;overflow:auto;margin-bottom:12px"></div>
+  <div class="tags" id="sug" style="margin:0 0 12px"></div>
+  <div class="ask"><input id="q" autocomplete="off" aria-label="Ask a question" placeholder="Ask about projects, skills, experience…"><button class="btn f" id="go" type="button">Ask</button></div>
+</div></section>
+
+<section class="s" id="cvcard"><div class="cvwrap">
+  <h2>My CV, in 3D</h2><p class="sub">Drag the card to spin it. It flips to show the back.</p>
+  <div class="scene"><div class="cvc" id="cvc">
+    <div class="face"><div><h3>Aaditya Pasi</h3><div class="rl">AI Engineer · Generative AI · Data Science</div></div><div><p>aadityapasi1611@gmail.com</p><p>8484903641 · Navi Mumbai, Maharashtra</p></div></div>
+    <div class="face b"><div><div class="rl">At a glance</div><p style="margin-top:8px">24 months of hands-on experience<br>3 internships and training programs<br>11 certifications</p></div><div><p>AutoFixer · Latrova</p><p>github.com/Aaditya-1611</p></div></div>
+  </div></div>
+</div></section>
+
+<section class="s r" id="contact"><div class="panel glass contact">
+  <h2>Let’s build something amazing together</h2><p class="sub">Looking for an entry-level AI Engineer role to build and deploy intelligent, real-world solutions.</p>
+  <a href="mailto:aadityapasi1611@gmail.com">aadityapasi1611@gmail.com</a>
+  <a href="tel:+918484903641">8484903641</a>
+  <a href="https://linkedin.com/in/aaditya-pasi-bb7a48317">linkedin.com/in/aaditya-pasi-bb7a48317</a>
+  <a href="https://github.com/Aaditya-1611">github.com/Aaditya-1611</a>
+  <a>Navi Mumbai, Maharashtra</a>
+  <div class="ask" style="margin-top:16px"><input id="cn" autocomplete="name" aria-label="Your name" placeholder="Your name"><input id="cm" aria-label="Message" placeholder="Message"><button class="btn f" id="cs" type="button">Send</button></div>
+  <p class="sub" style="margin:8px 0 0;font-size:12px">Opens your email app with the message ready to send.</p>
+</div></section>
+</main>
+<footer class="wm"><small>© 2026 Aaditya Pasi · AI Engineer</small></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/scroll-video.js"></script>
+</body></html>
